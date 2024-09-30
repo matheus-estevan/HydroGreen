@@ -60,17 +60,25 @@ export default function Referencias(){
                 <div className='lg:mt-32 lg:flex-row lg:gap-20 lg:w-full mt-5 flex flex-col items-center justify-center'>
                     <div className='lg:px-2 lg:max-w-96 my-5 flex flex-col items-center justify-center border-2 border-tittle-green rounded-2xl max-w-80'>
                         <h2 className='lg:max-w-80 lg:text-xl3 text-white font-bold text-center mb-7 mt-4'>Agroecologia e saúde humana: A produção orgânica por hidroponia.</h2>
-                        <img className='lg:w-36 mb-4' src={botao} alt="" />
+                        <a href="https://www.eng2018.agb.org.br/arquivo/downloadpublic?q=YToyOntzOjY6InBhcmFtcyI7czozNToiYToxOntzOjEwOiJJRF9BUlFVSVZPIjtzOjQ6IjM3NTciO30iO3M6MToiaCI7czozMjoiZDk1M2U3MmRiNzIxMjE0OGY4NDAzODU3MzgzMjJkMDYiO30%3D">
+                            <img className='lg:w-36 mb-4' src={botao} alt="Imagem de um botão" />
+                        </a>
+                        
                     </div>
 
                     <div className='my-5 flex flex-col items-center justify-center border-2 border-tittle-green rounded-2xl max-w-80'>
                         <h2 className='lg:px-2 lg:max-w-96 lg:text-xl3 text-white font-bold text-center mb-7 mt-4'>Produção hidropônica de alface em solução nutritiva com e sem silício</h2>
-                        <img className='lg:w-36 mb-4' src={botao} alt="" />
+                        <a href="https://www.scielo.br/j/hb/a/99RFWNLdK6G8HNLtFBpDzrL/?format=pdf&lang=pt">
+                            <img className='lg:w-36 mb-4' src={botao} alt="Imagem de um botão" />
+                        </a>
                     </div>
 
                     <div className='lg:max-w-xl my-5 flex flex-col items-center justify-center border-2 border-tittle-green rounded-2xl max-w-80'>
-                        <h2 className='lg:px-2 lg:max-w-96 lg:text-xl3 text-white font-bold text-center mb-7 mt-4'>Monitoramento de temperatura, condutividade e ph na água para cultivo hidropônico através de IOT</h2>
-                        <img className='lg:w-36 mb-4' src={botao} alt="" />
+                        <h2 className='lg:px-2 lg:max-w-96 lg:text-xl3 text-white font-bold text-center mb-7 mt-4'>Monitoramento de temperatura, condutividade e ph na água para cultivo hidropônico através de IOT</h2> 
+
+                        <a href="https://repositorio.ucs.br/xmlui/bitstream/handle/11338/8853/TCC%20Bruno%20Nunes%20de%20Oliveira.pdf?sequence=1&isAllowed=y">
+                            <img className='lg:w-36 mb-4' src={botao} alt="Imagem de um botão" />
+                        </a>  
                     </div>
 
                 </div>

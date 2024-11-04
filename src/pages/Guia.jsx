@@ -8,6 +8,7 @@ import Gotaguia from "../assets/Guia/gotaguia.svg"
 import Vaso from "../assets/Guia/vaso.svg"
 import Retangulo from "../assets/retangulo.png"
 
+
 export default function Guia(){
     return(
         <section className='bg-gradient-to-t from-bg-blue to-slate-900'>
@@ -68,16 +69,37 @@ export default function Guia(){
 
                     
                 </div>
-                    <div className="lg:mt-20 flex flex-col items-center justify-between pb-12">
-                        <button className="lg:max-w-xl max-w-56">
-                            <img src={Retangulo} className="w-max lg:w-14" alt="icone do play" />
-                        </button>
+                <div className="relative w-full max-w-2xl mx-auto overflow-hidden aspect-video lg:aspect-[16/9] lg:h-[400px]">
+                    <iframe
+                        src="https://www.youtube.com/embed/8uXiLNjXDBo?si=tCaoXVP7faq02ueH"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                        className="absolute top-0 left-0 w-full h-full"
+                    ></iframe>
+                </div>
 
+                    <h2 className="text-3xl lg:text-6xl font-bold text-tittle-green flex items-center justify-center m-10 mb-10 lg:pl-8 text-center">
+                        Jogo
+                    </h2>
+                    <p className="text-white text-center mb-5 lg:text-lg mb-5">
+                        Hydrogreen-Quest é um jogo onde o jogador controla um personagem que está em busca de peças para construir uma estufa hidropônica e salvar sua plantação.
+                    </p>
+
+                    <div className="relative w-full max-w-2xl mx-auto overflow-hidden aspect-video lg:aspect-[16/9] lg:h-[400px]">
+                    <iframe
+                        src="https://www.youtube.com/embed/8uXiLNjXDBo?si=tCaoXVP7faq02ueH"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                        className="absolute top-0 left-0 w-full h-full mb-6"
+                    ></iframe>
                     </div>
 
-                
-
-        
             </section>
         </section>
     )

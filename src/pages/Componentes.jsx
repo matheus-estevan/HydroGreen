@@ -13,6 +13,7 @@ import Rele from '../assets/componentes/rele.svg'
 import Acrilico from '../assets/componentes/acrilico.png'
 import Cano from '../assets/componentes/cano.png'
 import Mangueira from '../assets/componentes/mangueira.png'
+import Motor from "../assets/componentes/passo.png"
 
 function Componentes() {
   return (    
@@ -94,7 +95,7 @@ function Componentes() {
               <div className="texto lg:ml-9">
                 <h2 className="lg:mb-12 lg:text-3xl text-tittle-green font-inter text-center text-lg font-bold mb-4">Módulo Bluetooh</h2>
                 <p className="w-80 lg:w-auto lg:text-x29 text-white font-inter font-normal text-sm mb-4 md:text-base md:mb-2"> <span className='font-bold'>Função:</span> O módulo Bluetooth para Arduino permite comunicação sem fio com dispositivos como smartphones e computadores, facilitando troca de dados, controle remoto, transmissão de informações de sensores e recebimento de comandos. Ideal para automação, robótica e dispositivos móveis.</p>
-                <p className="w-80 lg:w-auto lg:text-x29 text-white font-inter font-normal text-sm mb-16 md:text-base md:mb-2 md:mt-2"> <span className='font-bold'>Preço:</span> 13,00 a 40,00 reais.</p>
+                <p className="w-80 lg:w-auto lg:text-x29 text-white font-inter font-normal text-sm mb-16 md:text-base md:mb-2 md:mt-2"> <span className='font-bold'>Preço:</span> R$ 37,90</p>
               </div>
             </div>
           </div>
@@ -137,10 +138,10 @@ function Componentes() {
           <div className="Servo Motor flex itens-center justify-center lg:ml-9">
             
             <div className="lg:mb-32 lg:max-w-7xl flex flex-col items-center justify-center md:flex-row-reverse md:items-center lg:gap-40  pb-8 ">
-              <img src={Servo} className=' w-56 lg:ml-9 bg-tittle-green rounded-lg mx-auto p-2xl mb-6 md:p-6 md:mb-0 md:mr-6 lg:w-96' alt="Imagem de um sensor TDS" />
+              <img src={Motor} className=' w-56 lg:ml-9 bg-tittle-green rounded-lg mx-auto p-2xl mb-6 md:p-6 md:mb-0 md:mr-6 lg:w-96' alt="Imagem de um sensor TDS" />
               <div className="texto">
-                <h2 className="lg:mb-12 lg:text-3xl text-tittle-green font-inter text-center text-lg font-bold mb-4">Servo Motor</h2>
-                <p className="w-80 lg:w-auto lg:text-x29 text-white font-inter font-normal text-sm mb-4 md:text-base md:mb-2"> <span className='font-bold'>Função:</span> O servo motor é um atuador que oferece controle preciso de posição, velocidade e torque, sendo amplamente utilizado em projetos de robótica, automação e modelismo. Ele é composto por um motor de corrente contínua, um conjunto de engrenagens, um potenciômetro e um circuito de controle, que ajusta sua posição de acordo com sinais de controle PWM (modulação por largura de pulso).
+                <h2 className="lg:mb-12 lg:text-3xl text-tittle-green font-inter text-center text-lg font-bold mb-4">Motor de Passo</h2>
+                <p className="w-80 lg:w-auto lg:text-x29 text-white font-inter font-normal text-sm mb-4 md:text-base md:mb-2"> <span className='font-bold'>Função:</span> O motor de passo no Arduino é utilizado para mover objetos com precisão controlada em passos incrementais. Diferente dos motores tradicionais, ele permite que o eixo gire em ângulos específicos e controlados, o que é ideal para aplicações que requerem posicionamento exato, como impressoras 3D, máquinas CNC, robótica e outros sistemas automatizados.
                 </p>
                 <p className="lg:text-x29 text-white font-inter font-normal text-sm mb-16 md:text-base md:mb-2 md:mt-2"> <span className='font-bold'>Preço:</span> R$ 17,90</p>
               </div>
@@ -177,7 +178,7 @@ function Componentes() {
               <img src={Mangueira} className='w-56 lg:ml-9 bg-tittle-green rounded-lg mx-auto p-2xl mb-6 md:p-6 md:mb-0 md:mr-6 lg:w-96' alt="Imagem de um sensor TDS" />
               <div className="texto">
                 <h2 className="lg:mb-12 lg:text-3xl text-tittle-green font-inter text-center text-lg font-bold mb-4">Mangueira</h2>
-                <p className=" w-80 lg:w-auto lg:text-x29 text-white font-inter font-normal text-sm mb-4 md:text-base md:mb-2"> <span className='font-bold'>Função:</span> A mangueira é um tubo flexível utilizado para transportar líquidos, gases ou substâncias granuladas. Feita de materiais como borracha, PVC ou silicone, ela é amplamente empregada em diversas aplicações, como jardinagem, irrigação, abastecimento de água, transporte de combustível e até em indústrias químicas..
+                <p className=" w-80 lg:w-auto lg:text-x29 text-white font-inter font-normal text-sm mb-4 md:text-base md:mb-2"> <span className='font-bold'>Função:</span> A mangueira é um tubo flexível utilizado para transportar líquidos, gases ou substâncias granuladas. Feita de materiais como borracha, PVC ou silicone, ela é amplamente empregada em diversas aplicações, como jardinagem, irrigação, abastecimento de água, transporte de combustível e até em indústrias químicas.
                 </p>
                 <p className="lg:text-x29 text-white font-inter font-normal text-sm mb-16 md:text-base md:mb-2 md:mt-2"> <span className='font-bold'>Preço:</span> R$ 2,34</p>
               </div>

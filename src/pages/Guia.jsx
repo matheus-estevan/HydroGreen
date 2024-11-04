@@ -71,14 +71,9 @@ export default function Guia(){
                 </div>
                 <div className="relative w-full max-w-2xl mx-auto overflow-hidden aspect-video lg:aspect-[16/9] lg:h-[400px]">
                     <iframe
-                        src="https://www.youtube.com/embed/8uXiLNjXDBo?si=tCaoXVP7faq02ueH"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                        className="rounded-lg absolute top-0 left-0 w-full h-full"
-                    ></iframe>
+                        width="560" height="315" src="https://www.youtube.com/embed/dKyY_ci-Jng?si=XWkziT8tpwR1y7ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                        className="rounded-lg absolute top-0 left-0 w-full h-full">
+                    </iframe>
                 </div>
 
                     <h2 className="text-3xl lg:text-6xl font-bold text-tittle-green flex items-center justify-center m-10 mb-10 lg:pl-8 text-center">

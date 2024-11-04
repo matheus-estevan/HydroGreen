@@ -77,7 +77,7 @@ export default function Guia(){
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"
                         allowFullScreen
-                        className="absolute top-0 left-0 w-full h-full"
+                        className="rounded-lg absolute top-0 left-0 w-full h-full"
                     ></iframe>
                 </div>
 
@@ -96,7 +96,7 @@ export default function Guia(){
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin"
                         allowFullScreen
-                        className="absolute top-0 left-0 w-full h-full mb-6"
+                        className="rounded-lg absolute top-0 left-0 w-full h-full mb-6"
                     ></iframe>
                     </div>
 
